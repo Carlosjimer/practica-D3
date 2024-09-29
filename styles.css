@@ -1,0 +1,16 @@
+body{
+background: linear-gradient(133deg, rgba(27,27,27,1) 0%, rgb(9, 9, 60) 40%, rgba(27,27,27,1) 100%);
+}
+
+.info{
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    color: rgb(41, 188, 253);
+    padding: 3em;
+    font-size: 1.5em;
+}
+
+.country{
+    transition: fill .5s;
+}
