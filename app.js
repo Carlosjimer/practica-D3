@@ -47,8 +47,8 @@ const createHoverEffect = () => {
         .on('mouseover', function(e, d){
             const {formal_en, economy} = d.properties
             infoPanel.html(`<h1>${formal_en}</h1><hr><p>${economy}</p>`)
-            globe.selectAll('.country').style('fill','white')
-            select(this).style('fill','#40f2fe')
+            globe.selectAll('.country').style('fill','white').style('stroke','rgb(41, 188, 253')
+            select(this).style('fill','#40f2fe').style('stroke', 'rgb(9, 9, 60)')
         })
 }
 
