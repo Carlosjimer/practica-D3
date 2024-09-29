@@ -4,7 +4,7 @@ let geojson, globe, projection, path, infoPanel, isMouseDown = false, rotation =
 
 const globeSize = {
     w: innerWidth / 2,
-    h: innerHeight
+    h: innerHeight /1.1
 }
 
 json('custom.geo.json').then(data => init(data));
